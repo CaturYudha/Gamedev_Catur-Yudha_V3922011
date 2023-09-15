@@ -1,0 +1,46 @@
+[gd_scene load_steps=9 format=3 uid="uid://bbn70uapt3rlj"]
+
+[ext_resource type="Texture2D" uid="uid://csi8mwd6axwoa" path="res://parallax-20230914T022811Z-001/parallax/parallax-00.png" id="1_fvfcf"]
+[ext_resource type="Texture2D" uid="uid://cyivd2hhvm3m4" path="res://parallax-20230914T022811Z-001/parallax/parallax-01.png" id="2_2b7qn"]
+[ext_resource type="Script" path="res://Parallax-00.gd" id="2_pqdeu"]
+[ext_resource type="Texture2D" uid="uid://cffa7txswvsa1" path="res://parallax-20230914T022811Z-001/parallax/parallax-02.png" id="3_0o73i"]
+[ext_resource type="Script" path="res://ParallaxLayer2.gd" id="3_xrr5a"]
+[ext_resource type="Texture2D" uid="uid://d0067rbmfge4x" path="res://parallax-20230914T022811Z-001/parallax/parallax-03.png" id="4_rhfgj"]
+[ext_resource type="Script" path="res://Cloud.gd" id="5_7pdox"]
+[ext_resource type="Texture2D" uid="uid://dlnmocru8ylcn" path="res://parallax-20230914T022811Z-001/parallax/parallax-04.png" id="5_tok78"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="sky" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(611, 183)
+texture = ExtResource("1_fvfcf")
+script = ExtResource("2_pqdeu")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+script = ExtResource("3_xrr5a")
+CLOUD_SPEED = null
+
+[node name="Cloud" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(606, 191)
+texture = ExtResource("2_2b7qn")
+script = ExtResource("5_7pdox")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+
+[node name="mountain" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(602, 319)
+texture = ExtResource("3_0o73i")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+
+[node name="hill" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(605, 315)
+texture = ExtResource("4_rhfgj")
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="."]
+
+[node name="ground" type="Sprite2D" parent="ParallaxLayer5"]
+position = Vector2(596, 387)
+texture = ExtResource("5_tok78")

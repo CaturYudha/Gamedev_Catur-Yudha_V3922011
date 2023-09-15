@@ -1,0 +1,163 @@
+[gd_scene load_steps=24 format=3 uid="uid://rfruanbdygsg"]
+
+[ext_resource type="Texture2D" uid="uid://ck7jxitfw7737" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_000.png" id="1_a281e"]
+[ext_resource type="Script" path="res://asset/Sprite2D.gd" id="2_6sxpx"]
+[ext_resource type="Texture2D" uid="uid://bfl7mfir5lud5" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_001.png" id="2_e7thc"]
+[ext_resource type="Texture2D" uid="uid://baocs5ukpgjea" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_002.png" id="3_y0atp"]
+[ext_resource type="Texture2D" uid="uid://c641wlveo8i" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_003.png" id="4_stqux"]
+[ext_resource type="Texture2D" uid="uid://ci2mfpcww37r5" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_004.png" id="5_y1376"]
+[ext_resource type="Texture2D" uid="uid://bla2k2svbqvij" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_005.png" id="6_wkjnp"]
+[ext_resource type="Texture2D" uid="uid://dt3ahcvdkkdlu" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_006.png" id="7_r1ygj"]
+[ext_resource type="Texture2D" uid="uid://dfk2nbvs5iw3a" path="res://asset/eksttrakan/Wolf/Run right/__Wolf_Run_007.png" id="8_prtsm"]
+[ext_resource type="Texture2D" uid="uid://ciypktih30m6o" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_000.png" id="9_5p6nj"]
+[ext_resource type="Texture2D" uid="uid://d13v8g4uptjhv" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_001.png" id="10_y8xxl"]
+[ext_resource type="Texture2D" uid="uid://blsh6e5go11i" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_002.png" id="11_2q20a"]
+[ext_resource type="Texture2D" uid="uid://cbve36ip6m386" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_003.png" id="12_4861c"]
+[ext_resource type="Texture2D" uid="uid://cniwuu0hiwhnd" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_004.png" id="13_8m40x"]
+[ext_resource type="Texture2D" uid="uid://1n1qnvfl4jlt" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_005.png" id="14_8rxhf"]
+[ext_resource type="Texture2D" uid="uid://w8tom1opgjao" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_006.png" id="15_0kcd0"]
+[ext_resource type="Texture2D" uid="uid://cnswij106lsgl" path="res://asset/eksttrakan/Wolf/Run left/__Wolf_Run_007.png" id="16_dgakc"]
+[ext_resource type="Texture2D" uid="uid://dxnpl55apm0f8" path="res://asset/eksttrakan/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="17_2gv6k"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ckomf"]
+texture = ExtResource("17_2gv6k")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_dh8du"]
+sources/2 = SubResource("TileSetAtlasSource_ckomf")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8mbdn"]
+size = Vector2(678, 44)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1l5g5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_a281e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_e7thc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_y0atp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_stqux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y1376")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_wkjnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_r1ygj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_prtsm")
+}],
+"loop": true,
+"name": &"Kanan",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_5p6nj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y8xxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2q20a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4861c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8m40x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_8rxhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0kcd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_dgakc")
+}],
+"loop": true,
+"name": &"Kiri",
+"speed": 30.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"Lompat",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v78m5"]
+size = Vector2(69.9887, 61.7674)
+
+[node name="main" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_dh8du")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424832, 65538, 0, 2490368, 65538, 1, 2555904, 65538, 2, 2424833, 131074, 0, 2490369, 131074, 1, 2555905, 131074, 2, 2424834, 196610, 0, 2490370, 196610, 1, 2555906, 196610, 2, 2424835, 196610, 0, 2490371, 196610, 1, 2555907, 196610, 2, 2424836, 65538, 0, 2490372, 65538, 1, 2555908, 65538, 2, 2424837, 131074, 0, 2490373, 131074, 1, 2555909, 131074, 2, 2424838, 196610, 0, 2490374, 196610, 1, 2555910, 196610, 2, 2424839, 65538, 0, 2490375, 65538, 1, 2555911, 65538, 2, 2424840, 131074, 0, 2490376, 131074, 1, 2555912, 131074, 2, 2424841, 196610, 0, 2490377, 196610, 1, 2555913, 196610, 2, 2424842, 65538, 0, 2490378, 65538, 1, 2555914, 65538, 2, 2424843, 131074, 0, 2490379, 131074, 1, 2555915, 131074, 2, 2424844, 196610, 0, 2490380, 196610, 1, 2555916, 196610, 2, 2424845, 65538, 0, 2490381, 65538, 1, 2555917, 65538, 2, 2424846, 131074, 0, 2490382, 131074, 1, 2555918, 131074, 2, 2424847, 196610, 0, 2490383, 196610, 1, 2555919, 196610, 2, 2424848, 65538, 0, 2490384, 65538, 1, 2555920, 65538, 2, 2424849, 131074, 0, 2490385, 131074, 1, 2555921, 131074, 2, 2424850, 196610, 0, 2490386, 196610, 1, 2555922, 196610, 2, 2424851, 65538, 0, 2490387, 65538, 1, 2555923, 65538, 2, 2424852, 131074, 0, 2490388, 131074, 1, 2555924, 131074, 2, 2424853, 196610, 0, 2490389, 196610, 1, 2555925, 196610, 2, 2424854, 65538, 0, 2490390, 65538, 1, 2555926, 65538, 2, 2424855, 131074, 0, 2490391, 131074, 1, 2555927, 131074, 2, 2424856, 196610, 0, 2490392, 196610, 1, 2555928, 196610, 2, 2424857, 65538, 0, 2490393, 65538, 1, 2555929, 65538, 2, 2424858, 131074, 0, 2490394, 131074, 1, 2555930, 131074, 2, 2424859, 196610, 0, 2490395, 196610, 1, 2555931, 196610, 2, 2424860, 65538, 0, 2490396, 65538, 1, 2555932, 65538, 2, 2424861, 131074, 0, 2490397, 131074, 1, 2555933, 131074, 2, 2424862, 196610, 0, 2490398, 196610, 1, 2555934, 196610, 2, 2424863, 65538, 0, 2490399, 65538, 1, 2555935, 65538, 2, 2424864, 131074, 0, 2490400, 131074, 1, 2555936, 131074, 2, 2424865, 196610, 0, 2490401, 196610, 1, 2555937, 196610, 2, 2424866, 65538, 0, 2490402, 65538, 1, 2555938, 65538, 2, 2424867, 131074, 0, 2490403, 131074, 1, 2555939, 131074, 2, 2424868, 196610, 0, 2490404, 196610, 1, 2555940, 196610, 2, 2424869, 65538, 0, 2490405, 65538, 1, 2555941, 65538, 2, 2424870, 131074, 0, 2490406, 131074, 1, 2555942, 131074, 2, 2424871, 196610, 0, 2490407, 196610, 1, 2555943, 196610, 2, 2424872, 65538, 0, 2490408, 65538, 1, 2555944, 65538, 2, 2424873, 131074, 0, 2490409, 131074, 1, 2555945, 131074, 2, 2424874, 196610, 0, 2490410, 196610, 1, 2555946, 196610, 2, 2228230, 65538, 0, 2228231, 131074, 0, 2228232, 196610, 0, 2228233, 65538, 0, 2228234, 131074, 0, 2228235, 196610, 0, 2228236, 65538, 0, 2228237, 131074, 0, 2228238, 196610, 0, 2293774, 196610, 1, 2359310, 196610, 2, 2359309, 131074, 2, 2293773, 131074, 1, 2293772, 65538, 1, 2293771, 196610, 1, 2293770, 131074, 1, 2293769, 65538, 1, 2293768, 196610, 1, 2293767, 131074, 1, 2293766, 65538, 1, 2359302, 65538, 2, 2359303, 131074, 2, 2359304, 196610, 2, 2359305, 65538, 2, 2359306, 131074, 2, 2359308, 65538, 2, 2359307, 196610, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(345, 617)
+shape = SubResource("RectangleShape2D_8mbdn")
+
+[node name="Sprite2D" type="CharacterBody2D" parent="."]
+position = Vector2(320, 576)
+scale = Vector2(1.05731, 0.856288)
+script = ExtResource("2_6sxpx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Sprite2D"]
+position = Vector2(-258.202, -52.5522)
+scale = Vector2(0.186873, 0.227972)
+sprite_frames = SubResource("SpriteFrames_1l5g5")
+animation = &"Kiri"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D"]
+position = Vector2(-258.202, -22.1888)
+shape = SubResource("RectangleShape2D_v78m5")
+
+[node name="Camera2D" type="Camera2D" parent="Sprite2D"]
+position = Vector2(-271.444, -15.1818)
